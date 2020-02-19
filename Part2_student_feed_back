@@ -1,0 +1,17 @@
+STUDENT 1:
+
+There is no need to import numpy
+Line 5 should be
+from sklearn.linear_model import LinearRegression
+Line 6 should be
+from sklearn.cross_validation import cross_val_score
+Line 8 specifies the data. When referencing the data, we need to consistently use the same label for it. In line 12 and 13 data is used, but this should actually be d
+Lines 20, 21 aren't necessary, you already imported cross val score and you aren't using train-test split
+Line 22, you need a cv>1 and scoring should be 'neg_mean_absolute_error'.
+
+
+STUDENT 2:
+
+
+Line 2: No need to import numpy
+Line 20: should be 'neg_mean_absolute_error'

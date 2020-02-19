@@ -1,0 +1,14 @@
+NON TECHNICAL SUMMARY
+
+In this analysis we looked at data regarding breast tumors. This data can be used to predict whether or not someone has breast cancer. The table consisted of 569 rows, 30 predicting columns and 1 target column. The target column indicated whether or not the measurements lead to breast cancer.
+
+Preliminary analysis using both graphs and hypothesis testing allowed us to boil down several very useful features in predicting breast cancer. Some of these features included
+
+•	Radius means
+•	Radius worst
+•	Radius std error
+•	Texture means
+
+These were of the most relevant. In conjunction to a few other features, cancer predictions could be made with high accuracy. 
+
+Two modelling techniques were used, both performed pretty well. One model is logistic regression, a basic statistics techniques for binary classification. The other was random forest, a more advanced technique that combines the effect of using many decision trees on the data. Both models had above 95% accuracy.
